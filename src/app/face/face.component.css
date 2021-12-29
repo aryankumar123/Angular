@@ -1,0 +1,29 @@
+.home{
+    background:url(/assets/img/giphy.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding:1rem 9%;
+    padding-top: 8rem;
+}
+.home .content{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.home .content h1{
+    font-size: 5rem;
+    color:var(--dark-blue);
+}
+
+.home .content .btn{
+    display: inline-block;
+    padding:.7rem 3rem;
+    color:#fff;
+    background:var(--blue);    
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}

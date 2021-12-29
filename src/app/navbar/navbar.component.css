@@ -1,0 +1,35 @@
+.navv{
+    width:100%;
+    position: absolute;  
+    top:0; left:0;
+    z-index: 1000;
+    padding:1.1rem;
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+    overflow-x: hidden;
+}
+
+
+
+.navbar a{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    padding:.4rem 2rem;
+    border-radius: .5rem;
+    color:var(--dark-blue);
+}
+.navbar a.active,
+.navbar a:hover{
+    background: var(--blue);
+    color:#fff; 
+}
+
+h2{
+    color:rgb(230, 162, 74);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    color: rgb(255, 255, 255);
+}
